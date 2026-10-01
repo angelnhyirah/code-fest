@@ -1,0 +1,110 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    color: #1E293B;
+    background-color: #white;
+}
+
+nav  {
+    background-color: #1E293B;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a{
+    text-decoration: none;
+    color:white;
+}
+
+#home {
+    background-color:#E0F2FE;
+    padding: 5%;
+}
+
+#home h2 {
+    text-align: center;
+    color:#1D4ED8;
+    font-size: 40px;
+}
+
+#home p {
+    font-size:20px;
+}
+
+
+#home a {
+    background-color: #1D4ED8;
+    color: white;
+    padding:10px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+#home a:hover{
+    background-color: #06B6D4;
+}
+
+#about h3 {
+    color: #1D4ED8;
+    font-size: 25px;
+}
+
+#about p {
+    font-size: 17px;
+}
+
+#speakers h3 {
+    color: #1D4ED8;
+    font-size:25px ;
+}
+
+#speakers li {
+    color: #1c3da0;
+}
+
+#schedule {
+    background-color: #ECFEFF; 
+}
+
+#tickets {
+    background-color:#E0F2FE; 
+}
+
+#tickets h3 {
+  color: #1D4ED8;
+}
+
+#tickets h4 {
+     color: #7C3AED;
+}
+
+#tickets p {
+    background-color: #F5F3FF;
+    padding: 15px;
+}   
+
+#registration {
+    background-color: #F3E8FF;
+}
+
+#registration h3 {
+    color: #7C3AED;
+}
+
+button {
+    background-color: #1D4ED8;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+
+}
+
+
+.container {
+    display: flex;
+   /* align-items: center; */
+    justify-content: center;
+    height: 500px;
+    gap:20px;
+}
